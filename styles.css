@@ -1,0 +1,208 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color: rgb(37, 37, 37);
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+}
+
+.header > .logo > img{
+    width: 300px;
+    padding: 20px 50px 20px 20px;
+}
+
+.links-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.header > .links-wrapper > .links-header{
+    color: rgb(233, 248, 97);
+    font-size:1.2em;
+    padding-left: 5px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.header > .links-wrapper > .links > a, .header > .links-wrapper > .links > div{
+    color: white;
+    padding: 5px;
+}
+
+.spark{
+    display: flex;
+    flex-direction: row;
+}
+
+.spark > .word{
+    
+    padding-left:100px;
+}
+
+.spark > .dropdown{
+    padding-left: 20px;
+    color: rgb(136, 136, 136);
+}
+.spark > div{
+    padding-left:5px;
+    color: gray;
+}
+
+.right-side-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+.create{
+    background-color:gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.create > div{
+    padding: 5px;
+}
+
+.create > .dropdown{
+    color: greenyellow;
+}
+
+.search-icon{
+    color: gray;
+    font-size: 3em;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login, .signup, .create{
+    margin: 10px;
+    padding: 10px;
+    font-size: 2em;
+    background-color: gray;
+    color:white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login > div, .signup > div, .create > div{
+    padding:10px 25px;
+}
+
+.create > .word{
+    padding-right: 5px;
+}
+
+.create > .dropdown{
+    padding-left: 5px;
+}
+
+.main-body{
+    display: flex;
+    background-color: rgb(73, 73, 73);
+}
+
+.left-part{
+    padding: 50px;
+}
+.paragraphs > div{
+    color: rgb(167, 167, 167);
+    padding: 20px;
+}
+
+.starter-words > .bold-words{
+    color: white;
+}
+
+.paragraphs > .starter-words{
+    font-size: 4em;
+}
+
+.paragraphs > .continued-words{
+    font-size: 3em;
+}
+
+.left-part > .buttons{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3em;
+}
+
+.left-part > .buttons > div{
+    padding: 20px;
+    margin: 5px;
+}
+
+.buttons > .signup-for-free{
+    background: rgb(42, 255, 106);
+    border-radius: 2px;
+}
+
+.buttons > .learn-more{
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+
+.right-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.right-part > .explaination{
+    margin-top: 30px;
+    color: white;
+    padding-left: 10px;
+    font-size: 2em;
+}
+
+.right-part > .explaination > strong > a, .right-part > .explaination > strong > a:visited{
+    color: rgb(121, 182, 240);
+}
+
+.right-part > .img-wrapper > img{
+    width: 100%;
+}
+
+.labels{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(94, 93, 93);
+}
+
+.labels > .label{
+    font-size:1.5em;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border: white solid 1px;
+}
+
+.labels > .label > strong{
+    font-family: 'Alata', sans-serif;
+    font-size: 1.2em;
+}
